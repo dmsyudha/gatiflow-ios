@@ -2,23 +2,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "MobileHub",
+    name: "GatiFlow",
     platforms: [
         .iOS(.v13),
         .macOS(.v10_15),
     ],
     products: [
-        .library(name: "MobileHub", targets: ["MobileHub"]),
+        .library(name: "GatiFlow", targets: ["GatiFlow"]),
     ],
     targets: [
         .target(
-            name: "MobileHub",
-            path: "Sources/MobileHub"
+            name: "GatiFlow",
+            path: "Sources/GatiFlow"
         ),
         .testTarget(
-            name: "MobileHubTests",
-            dependencies: ["MobileHub"],
-            path: "Tests/MobileHubTests"
+            name: "GatiFlowTests",
+            dependencies: ["GatiFlow"],
+            path: "Tests/GatiFlowTests"
         ),
     ]
 )

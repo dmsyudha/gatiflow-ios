@@ -2,18 +2,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "MobileHubExample",
+    name: "GatiFlowExample",
     platforms: [.macOS(.v13)],
     dependencies: [
         .package(path: "..")
     ],
     targets: [
         .executableTarget(
-            name: "MobileHubExample",
+            name: "GatiFlowExample",
             dependencies: [
-                .product(name: "MobileHub", package: "ios")
+                .product(name: "GatiFlow", package: "ios")
             ],
-            path: "Sources/MobileHubExample"
+            path: "Sources/GatiFlowExample"
         )
     ]
 )
