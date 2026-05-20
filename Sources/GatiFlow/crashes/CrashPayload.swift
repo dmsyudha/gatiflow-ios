@@ -62,6 +62,8 @@ struct CrashPayload {
 
     func toJson() -> String {
         // title = human-readable message; reason = exception class (matches Go ingestor model)
+        let iso = ISO8601DateFormatter()
+        iso.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
         var obj: [String: Any] = [
             "title": String(message.prefix(200)),
             "reason": exceptionClass,
@@ -72,6 +74,7 @@ struct CrashPayload {
             "device_id": deviceId,
             "device_model": deviceModel,
             "metadata": metadata,
+            "occurred_at": iso.string(from: occurredAt),
         ]
         if let userId = userId { obj["user_id"] = userId }
         let wrapper = ["crash": obj]
