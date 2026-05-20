@@ -42,7 +42,7 @@ final class CrashReporter {
         let crashes = storage.dequeueCrashes(maxCount: 10)
         guard !crashes.isEmpty else { return }
         for json in crashes {
-            http.postJson(path: "/api/sdk/crashes", body: json, onSuccess: {}) { [weak self] _ in
+            http.postJson(path: "/sdk/v1/crashes", body: json, onSuccess: {}) { [weak self] _ in
                 self?.storage.enqueueCrash(json)
             }
         }
@@ -59,7 +59,7 @@ final class CrashReporter {
             metadata: metadata
         )
         let json = payload.toJson()
-        http.postJson(path: "/api/sdk/crashes", body: json, onSuccess: {}) { [weak self] _ in
+        http.postJson(path: "/sdk/v1/crashes", body: json, onSuccess: {}) { [weak self] _ in
             self?.storage.enqueueCrash(json)
         }
     }

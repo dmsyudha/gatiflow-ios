@@ -48,7 +48,7 @@ final class EventQueue {
         lock.unlock()
 
         let body = EventSerializer.toRequestBody(events: batch, session: sessionManager.buildSessionPayload())
-        http.postJson(path: "/api/sdk/events", body: body, onSuccess: {}) { [weak self] _ in
+        http.postJson(path: "/sdk/v1/events", body: body, onSuccess: {}) { [weak self] _ in
             guard let self else { return }
             self.lock.lock()
             self.buffer.insert(contentsOf: batch, at: 0)
