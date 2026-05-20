@@ -61,18 +61,19 @@ struct CrashPayload {
     }
 
     func toJson() -> String {
+        // title = human-readable message; reason = exception class (matches Go ingestor model)
         var obj: [String: Any] = [
-            "exceptionClass": exceptionClass,
-            "message": message,
-            "stackTrace": stackTrace,
-            "appVersion": appVersion,
-            "osVersion": osVersion,
-            "deviceId": deviceId,
-            "deviceModel": deviceModel,
+            "title": String(message.prefix(200)),
+            "reason": exceptionClass,
+            "exception_type": exceptionClass,
+            "stack_trace": stackTrace,
+            "app_version": appVersion,
+            "os_version": osVersion,
+            "device_id": deviceId,
+            "device_model": deviceModel,
             "metadata": metadata,
-            "occurredAt": ISO8601DateFormatter().string(from: occurredAt),
         ]
-        if let userId = userId { obj["userId"] = userId }
+        if let userId = userId { obj["user_id"] = userId }
         let wrapper = ["crash": obj]
         guard let data = try? JSONSerialization.data(withJSONObject: wrapper),
               let str = String(data: data, encoding: .utf8) else { return "{}" }
@@ -86,18 +87,18 @@ struct CrashPayload {
         else { return nil }
 
         let formatter = ISO8601DateFormatter()
-        let date = (obj["occurredAt"] as? String).flatMap { formatter.date(from: $0) } ?? Date()
+        let date = (obj["occurred_at"] as? String).flatMap { formatter.date(from: $0) } ?? Date()
         let metadata = obj["metadata"] as? [String: String] ?? [:]
 
         return CrashPayload(
-            exceptionClass: obj["exceptionClass"] as? String ?? "",
-            message: obj["message"] as? String ?? "",
-            stackTrace: obj["stackTrace"] as? String ?? "",
-            appVersion: obj["appVersion"] as? String ?? "",
-            osVersion: obj["osVersion"] as? String ?? "",
-            deviceId: obj["deviceId"] as? String ?? "",
-            deviceModel: obj["deviceModel"] as? String ?? "",
-            userId: obj["userId"] as? String,
+            exceptionClass: obj["exception_type"] as? String ?? obj["reason"] as? String ?? "",
+            message: obj["title"] as? String ?? "",
+            stackTrace: obj["stack_trace"] as? String ?? "",
+            appVersion: obj["app_version"] as? String ?? "",
+            osVersion: obj["os_version"] as? String ?? "",
+            deviceId: obj["device_id"] as? String ?? "",
+            deviceModel: obj["device_model"] as? String ?? "",
+            userId: obj["user_id"] as? String,
             metadata: metadata,
             occurredAt: date
         )

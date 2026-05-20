@@ -21,19 +21,19 @@ enum EventSerializer {
 
     static func toRequestBody(events: [EventPayload], session: SessionPayload) -> String {
         var sessionObj: [String: Any] = [
-            "sessionId": session.sessionId,
-            "deviceId": session.deviceId,
-            "appVersion": session.appVersion,
-            "osVersion": session.osVersion,
-            "deviceModel": session.deviceModel,
+            "session_id": session.sessionId,
+            "device_id": session.deviceId,
+            "app_version": session.appVersion,
+            "os_version": session.osVersion,
+            "device_model": session.deviceModel,
             "country": session.country,
         ]
-        if let userId = session.userId { sessionObj["userId"] = userId }
+        if let userId = session.userId { sessionObj["user_id"] = userId }
 
         let eventsArr: [[String: Any]] = events.map { e in
             var obj: [String: Any] = [
                 "name": e.name,
-                "occurredAt": iso8601.string(from: e.occurredAt),
+                "occurred_at": iso8601.string(from: e.occurredAt),
             ]
             if let props = e.properties { obj["properties"] = props }
             return obj
