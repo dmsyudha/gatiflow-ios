@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "ios",
+          "kind" : "fileSystem",
+          "location" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios",
+          "name" : "MobileHub"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios"
+        },
+        "subpath" : "ios"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

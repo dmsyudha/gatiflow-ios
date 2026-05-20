@@ -1,0 +1,124 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/master.swiftdeps"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/MobileHub.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/MobileHub.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/MobileHub.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/MobileHub~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/MobileHub.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/MobileHub.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/Analytics.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Analytics.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Analytics.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Analytics~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Analytics.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Analytics.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/EventPayload.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/EventPayload.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/EventPayload.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/EventPayload~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/EventPayload.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/EventPayload.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/EventQueue.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/EventQueue.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/EventQueue.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/EventQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/EventQueue.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/EventQueue.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/Config.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Config.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Config.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Config~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Config.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Config.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/DeviceInfo.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/DeviceInfo.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/DeviceInfo.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/DeviceInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/DeviceInfo.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/DeviceInfo.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/HttpClient.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/HttpClient.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/HttpClient.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/HttpClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/HttpClient.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/HttpClient.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/Logger.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Logger.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Logger.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Logger~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Logger.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Logger.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/SessionManager.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/SessionManager.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/SessionManager.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/SessionManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/SessionManager.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/SessionManager.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/SessionPayload.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/SessionPayload.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/SessionPayload.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/SessionPayload~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/SessionPayload.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/SessionPayload.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/StorageManager.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/StorageManager.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/StorageManager.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/StorageManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/StorageManager.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/StorageManager.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/CrashPayload.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/CrashPayload.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/CrashPayload.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/CrashPayload~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/CrashPayload.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/CrashPayload.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/CrashReporter.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/CrashReporter.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/CrashReporter.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/CrashReporter~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/CrashReporter.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/CrashReporter.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/Crashes.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Crashes.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Crashes.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Crashes~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Crashes.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Crashes.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/WatchdogMonitor.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/WatchdogMonitor.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/WatchdogMonitor.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/WatchdogMonitor~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/WatchdogMonitor.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/WatchdogMonitor.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/services/MobileHubService.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/MobileHubService.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/MobileHubService.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/MobileHubService~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/MobileHubService.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/MobileHubService.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/services/ServiceRegistry.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/ServiceRegistry.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/ServiceRegistry.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/ServiceRegistry~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/ServiceRegistry.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/ServiceRegistry.dia"
+  }
+}

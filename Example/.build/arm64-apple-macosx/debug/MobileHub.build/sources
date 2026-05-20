@@ -1,0 +1,17 @@
+/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/MobileHub.swift
+/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/Analytics.swift
+/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/EventPayload.swift
+/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/EventQueue.swift
+/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/Config.swift
+/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/DeviceInfo.swift
+/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/HttpClient.swift
+/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/Logger.swift
+/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/SessionManager.swift
+/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/SessionPayload.swift
+/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/StorageManager.swift
+/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/CrashPayload.swift
+/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/CrashReporter.swift
+/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/Crashes.swift
+/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/WatchdogMonitor.swift
+/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/services/MobileHubService.swift
+/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/services/ServiceRegistry.swift

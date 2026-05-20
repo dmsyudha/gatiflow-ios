@@ -1,0 +1,755 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.MobileHub-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/sources",
+      "importPath" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/MobileHub.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/Analytics.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/EventPayload.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/EventQueue.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/Config.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/DeviceInfo.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/HttpClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/Logger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/SessionManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/SessionPayload.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/StorageManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/CrashPayload.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/CrashReporter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/Crashes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/WatchdogMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/services/MobileHubService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/services/ServiceRegistry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MobileHub",
+      "moduleOutputPath" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/Modules/MobileHub.swiftmodule",
+      "objects" : [
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/MobileHub.swift.o",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Analytics.swift.o",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/EventPayload.swift.o",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/EventQueue.swift.o",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Config.swift.o",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/DeviceInfo.swift.o",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/HttpClient.swift.o",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Logger.swift.o",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/SessionManager.swift.o",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/SessionPayload.swift.o",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/StorageManager.swift.o",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/CrashPayload.swift.o",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/CrashReporter.swift.o",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Crashes.swift.o",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/WatchdogMonitor.swift.o",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/MobileHubService.swift.o",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/ServiceRegistry.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/include/MobileHub-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ios"
+      ],
+      "outputFileMapPath" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/MobileHub.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Analytics.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/EventPayload.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/EventQueue.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Config.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/DeviceInfo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/HttpClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/SessionManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/SessionPayload.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/StorageManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/CrashPayload.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/CrashReporter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Crashes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/WatchdogMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/MobileHubService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/ServiceRegistry.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/Modules/MobileHub.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/MobileHub.swift",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/Analytics.swift",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/EventPayload.swift",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/EventQueue.swift",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/Config.swift",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/DeviceInfo.swift",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/HttpClient.swift",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/Logger.swift",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/SessionManager.swift",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/SessionPayload.swift",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/StorageManager.swift",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/CrashPayload.swift",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/CrashReporter.swift",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/Crashes.swift",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/WatchdogMonitor.swift",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/services/MobileHubService.swift",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/services/ServiceRegistry.swift"
+      ],
+      "tempsPath" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MobileHubExample-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample.build/sources",
+      "importPath" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/Sources/MobileHubExample/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/Modules/MobileHub.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "MobileHubExample",
+      "moduleOutputPath" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/Modules/MobileHubExample.swiftmodule",
+      "objects" : [
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "MobileHubExample_main",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "example"
+      ],
+      "outputFileMapPath" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/Modules/MobileHubExample.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/Sources/MobileHubExample/main.swift"
+      ],
+      "tempsPath" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "MobileHub" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MobileHub",
+      "-package-name",
+      "ios",
+      "-c",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/MobileHub.swift",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/Analytics.swift",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/EventPayload.swift",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/EventQueue.swift",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/Config.swift",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/DeviceInfo.swift",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/HttpClient.swift",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/Logger.swift",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/SessionManager.swift",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/SessionPayload.swift",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/StorageManager.swift",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/CrashPayload.swift",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/CrashReporter.swift",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/Crashes.swift",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/WatchdogMonitor.swift",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/services/MobileHubService.swift",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/services/ServiceRegistry.swift",
+      "-I",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.15",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/include/MobileHub-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ios",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "MobileHubExample" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MobileHubExample",
+      "-package-name",
+      "example",
+      "-c",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/Sources/MobileHubExample/main.swift",
+      "-I",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "MobileHubExample_main",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "example",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "MobileHub" : [
+
+    ],
+    "MobileHubExample" : [
+      "MobileHub"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/MobileHub.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/Analytics.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/EventPayload.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/analytics/EventQueue.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/Config.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/DeviceInfo.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/HttpClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/Logger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/SessionManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/SessionPayload.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/core/StorageManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/CrashPayload.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/CrashReporter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/Crashes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/crashes/WatchdogMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/services/MobileHubService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Sources/MobileHub/services/ServiceRegistry.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/sources"
+    },
+    "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample-entitlement.plist"
+    },
+    "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/Sources/MobileHubExample/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample.build/sources"
+    },
+    "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Analytics.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Config.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/CrashPayload.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/CrashReporter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Crashes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/DeviceInfo.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/EventPayload.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/EventQueue.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/HttpClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/MobileHub.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/MobileHubService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/ServiceRegistry.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/SessionManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/SessionPayload.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/StorageManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHub.build/WatchdogMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample.product/Objects.LinkFileList"
+    },
+    "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

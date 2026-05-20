@@ -1,0 +1,89 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/master.swiftdeps"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Tests/MobileHubTests/analytics/EventQueueTests.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/EventQueueTests.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/EventQueueTests.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/EventQueueTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/EventQueueTests.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/EventQueueTests.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Tests/MobileHubTests/analytics/EventSerializerTests.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/EventSerializerTests.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/EventSerializerTests.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/EventSerializerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/EventSerializerTests.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/EventSerializerTests.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Tests/MobileHubTests/core/ConfigTests.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/ConfigTests.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/ConfigTests.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/ConfigTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/ConfigTests.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/ConfigTests.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Tests/MobileHubTests/core/SessionManagerTests.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/SessionManagerTests.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/SessionManagerTests.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/SessionManagerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/SessionManagerTests.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/SessionManagerTests.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Tests/MobileHubTests/core/StorageManagerTests.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/StorageManagerTests.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/StorageManagerTests.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/StorageManagerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/StorageManagerTests.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/StorageManagerTests.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Tests/MobileHubTests/crashes/CrashPayloadTests.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/CrashPayloadTests.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/CrashPayloadTests.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/CrashPayloadTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/CrashPayloadTests.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/CrashPayloadTests.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Tests/MobileHubTests/crashes/CrashReporterTests.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/CrashReporterTests.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/CrashReporterTests.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/CrashReporterTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/CrashReporterTests.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/CrashReporterTests.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Tests/MobileHubTests/crashes/WatchdogMonitorTests.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/WatchdogMonitorTests.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/WatchdogMonitorTests.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/WatchdogMonitorTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/WatchdogMonitorTests.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/WatchdogMonitorTests.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Tests/MobileHubTests/fakes/FakeDeviceInfo.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/FakeDeviceInfo.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/FakeDeviceInfo.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/FakeDeviceInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/FakeDeviceInfo.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/FakeDeviceInfo.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Tests/MobileHubTests/fakes/FakeHttpClient.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/FakeHttpClient.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/FakeHttpClient.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/FakeHttpClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/FakeHttpClient.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/FakeHttpClient.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Tests/MobileHubTests/fakes/FakeStorage.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/FakeStorage.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/FakeStorage.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/FakeStorage~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/FakeStorage.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/FakeStorage.dia"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Tests/MobileHubTests/services/ServiceRegistryTests.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/ServiceRegistryTests.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/ServiceRegistryTests.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/ServiceRegistryTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/ServiceRegistryTests.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubTests.build/ServiceRegistryTests.dia"
+  }
+}

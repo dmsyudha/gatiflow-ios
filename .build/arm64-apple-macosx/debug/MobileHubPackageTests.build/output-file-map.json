@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubPackageTests.build/master.swiftdeps"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubPackageTests.build/runner.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHubPackageTests.build/runner.dia"
+  }
+}

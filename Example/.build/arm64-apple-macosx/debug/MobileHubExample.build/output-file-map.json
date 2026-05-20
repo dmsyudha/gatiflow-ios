@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample.build/master.swiftdeps"
+  },
+  "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/Sources/MobileHubExample/main.swift": {
+    "dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample.build/main.d",
+    "object": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample.build/main.swift.o",
+    "swiftmodule": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample.build/main.swiftdeps",
+    "diagnostics": "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/Example/.build/arm64-apple-macosx/debug/MobileHubExample.build/main.dia"
+  }
+}

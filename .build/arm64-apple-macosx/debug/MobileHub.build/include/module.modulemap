@@ -1,0 +1,3 @@
+module MobileHub {
+    header "/Users/dmsyudha/Documents/Work/imustore/sdk/ios/.build/arm64-apple-macosx/debug/MobileHub.build/include/MobileHub-Swift.h"
+}
