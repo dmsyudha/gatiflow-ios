@@ -20,18 +20,50 @@ public final class Config {
     }
 
     public final class Builder {
+
+        // MARK: Stored properties
+
         let appToken: String
-        var baseUrl: String = "https://gatiflow.app"
+        var baseUrl: String = "https://app.gatiflow.dev"
         var maxCrashQueueSize: Int = 50
         var maxEventBatchSize: Int = 20
         var flushIntervalMs: TimeInterval = 30_000
         var debugLogging: Bool = false
         var watchdogTimeoutMs: TimeInterval = 5_000
 
+        // MARK: Init
+
         public init(appToken: String) {
             precondition(!appToken.trimmingCharacters(in: .whitespaces).isEmpty, "appToken must not be blank")
             self.appToken = appToken
         }
+
+        // MARK: Plist factory
+
+        /// Creates a Builder by reading `GatiFlowAppToken` (and optionally
+        /// `GatiFlowBaseUrl`) from the given bundle's Info.plist.
+        /// Returns `nil` if the token key is absent or blank.
+        ///
+        /// ```swift
+        /// if let builder = Config.Builder.fromPlist() {
+        ///     let config = builder.debugLogging(true).build()
+        ///     GatiFlow.shared.start(config: config, services: [Crashes(), Analytics()])
+        /// }
+        /// ```
+        public static func fromPlist(bundle: Bundle = .main) -> Builder? {
+            guard
+                let dict  = bundle.infoDictionary,
+                let token = dict["GatiFlowAppToken"] as? String,
+                !token.trimmingCharacters(in: .whitespaces).isEmpty
+            else { return nil }
+            let builder = Builder(appToken: token)
+            if let url = dict["GatiFlowBaseUrl"] as? String, !url.isEmpty {
+                _ = builder.baseUrl(url)
+            }
+            return builder
+        }
+
+        // MARK: Chainable setters
 
         @discardableResult
         public func baseUrl(_ value: String) -> Builder {

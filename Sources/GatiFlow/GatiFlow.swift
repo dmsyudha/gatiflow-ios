@@ -16,6 +16,30 @@ public final class GatiFlow {
 
     // MARK: - Start
 
+    /// Zero-code init — reads the app token from the `GatiFlowAppToken` key in Info.plist.
+    /// Swap tokens for different environments without touching source code:
+    /// just update the plist value and rebuild.
+    ///
+    /// ```swift
+    /// // AppDelegate / @main
+    /// GatiFlow.shared.start()                          // uses Crashes + Analytics by default
+    /// GatiFlow.shared.start(services: [Crashes()])     // custom service list
+    /// ```
+    public func start(services: [GatiFlowService] = [Crashes(), Analytics()]) {
+        guard
+            let token = Bundle.main.infoDictionary?["GatiFlowAppToken"] as? String,
+            !token.trimmingCharacters(in: .whitespaces).isEmpty
+        else {
+            assertionFailure(
+                "[GatiFlow] GatiFlowAppToken not found in Info.plist. " +
+                "Add a String entry with key 'GatiFlowAppToken', or call " +
+                "start(appToken:services:) to pass the token directly."
+            )
+            return
+        }
+        start(appToken: token, services: services)
+    }
+
     public func start(appToken: String, services: [GatiFlowService] = []) {
         let config = Config.Builder(appToken: appToken).build()
         start(config: config, services: services)
