@@ -13,6 +13,7 @@ public final class GatiFlow {
 
     public var crashes: Crashes? { registry?.get(Crashes.self) }
     public var analytics: Analytics? { registry?.get(Analytics.self) }
+    public var push: PushService? { registry?.get(PushService.self) }
 
     // MARK: - Start
 
@@ -84,6 +85,11 @@ public final class GatiFlow {
                 a.sessionManager = sm
                 a.maxBatchSize = config.maxEventBatchSize
                 a.flushIntervalMs = config.flushIntervalMs
+            }
+            if let p = service as? PushService {
+                p.httpClient = client
+                p.storageManager = store
+                p.sdkConfig = config
             }
             reg.register(service)
         }

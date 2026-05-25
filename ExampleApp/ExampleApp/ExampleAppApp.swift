@@ -1,5 +1,6 @@
 import SwiftUI
 import GatiFlow
+import UserNotifications
 
 @main
 struct ExampleAppApp: App {
@@ -11,7 +12,7 @@ struct ExampleAppApp: App {
         // ── Option B: explicit token (used here for demo clarity) ──────────
         GatiFlow.shared.start(
             appToken: "mhub_demo_token",
-            services: [Crashes(), Analytics()]
+            services: [Crashes(), Analytics(), PushService()]
         )
 
         // Associate a demo user identity with all events and crashes
@@ -24,3 +25,17 @@ struct ExampleAppApp: App {
         }
     }
 }
+
+// MARK: - APNs token forwarding
+// In a real app using UIKit AppDelegate, forward the device token here:
+//
+// extension AppDelegate: UIApplicationDelegate {
+//     func application(_ app: UIApplication,
+//                      didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+//         GatiFlow.shared.push?.registerAPNsToken(deviceToken)
+//     }
+// }
+//
+// For SwiftUI @main without AppDelegate, use UIApplicationDelegateAdaptor:
+//
+// @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate

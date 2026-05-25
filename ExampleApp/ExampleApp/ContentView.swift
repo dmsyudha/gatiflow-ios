@@ -11,6 +11,9 @@ struct ContentView: View {
                     NavigationLink(destination: CrashDemoView()) {
                         Label("Crash Reporting", systemImage: "exclamationmark.triangle.fill")
                     }
+                    NavigationLink(destination: PushDemoView()) {
+                        Label("Push Notifications", systemImage: "bell.badge.fill")
+                    }
                 } header: {
                     Text("SDK Features")
                 }
